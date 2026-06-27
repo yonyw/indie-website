@@ -4,9 +4,8 @@
   --bg: #000000;
 }
 
-/* layout */
-body,
-main {
+/* Layout */
+body, main {
   background-color: var(--bg);
   margin: 20px auto;
   width: 80vw;
@@ -14,17 +13,18 @@ main {
   flex-direction: column;
 }
 
-/* =============== */
-/* NAVIGATION BAR  */
-/* ==============  */
+.terminal-row {
+  display: flex;
+}
 
+/* Navigation Bar */
 .nav-bar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: #000000;
+  background-color: var(--bg);
 
   justify-content: center;
   display: flex;
@@ -55,7 +55,7 @@ main {
   color: var(--primary);
 }
 
-/* TERMINAL SYSTEM */
+/* Terminal System / Layout */
 .terminal-box {
   border: 1px solid var(--primary);
   background-color: color-mix(in oklab, var(--primary) 10%, transparent);
@@ -87,7 +87,3 @@ main {
   text-decoration: underline;
 }
 
-/* ROW LAYOUT */
-.terminal-row {
-  display: flex;
-}
