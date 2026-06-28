@@ -1,0 +1,13 @@
+.projects {
+  height: 25vw;
+  width: 80vw;
+  display:flex;
+}
+
+.project-content {
+  height: 20vw;
+  width: 30vw;
+  margin: 2vw;
+  border: 1px solid var(--primary);
+
+}

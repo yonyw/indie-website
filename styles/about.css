@@ -1,7 +1,8 @@
+/* Terminal Row 1 */
 .whoami {
   height: 25vw;
   width: 55vw;
-  margin-top: 2vw;
+  margin-top: 3vw;
   margin-bottom: 2vw;
 }
 
@@ -10,4 +11,17 @@
   width: 21vw;
   height: 21vw;
   border: 1px solid var(--primary);
+}
+
+.skills {
+  margin-top: 2vw;
+  width: 40vw;
+  height: 20vw;
+  margin-right: 2vw;
+}
+
+.mission {
+  margin-top: 2vw;
+  width: 40vw;
+  height: 20vw;
 }

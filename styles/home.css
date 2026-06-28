@@ -2,7 +2,7 @@
 .boot-screen {
   width: 80vw;
   height: 20vw;
-  margin-top: 3vw;
+  background-color: color-mix(in oklab, #00882A 20%, transparent);
 }
 
 /* Terminal Row 2 */

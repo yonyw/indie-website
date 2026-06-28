@@ -19,20 +19,18 @@
 
   <main>
     <!-- Terminal Row 1 -->
-    <section class="terminal-box boot-screen">
+    <section class="terminal-row">
 
       <!--Boot Screen Window-->
-      <div class="terminal-header">
-        user@root~$: [STATUS: ACTIVE]
-      </div>
-
-        <div class="terminal-text">
-          $ BOOTING UP TERMINAL... <br><br>
-          $ INITIALIZING SYSTEM... <br><br>
-          $ LOADING KERNEL MODULES... [OK] <br><br>
-          $ ESTABLISHING SECURE CONNECTION... [OK] <br><br>
-          ...WELCOME!
+      <div class="terminal-box boot-screen">
+        <div class="terminal-header">
+          user@root~$: [STATUS: ACTIVE]
         </div>
+
+        <div class="terminal-text" id="boot-text"> 
+        <!-- Boot up text is loaded bys JS-->
+        </div>
+      </div>
     </section>
 
   <!-- Terminal Row 2-->
@@ -49,18 +47,8 @@
           /$README...
         </div>
 
-          <div class="terminal-text">
-            $ WELCOME TO YONY-OS v1.0! <br><br>
-            AUTHORIZED USERS ONLY.<br>
-            -----------------------<br>
-            Hey, my name is Yony.<br><br>
-
-            I am a computer science student who enjoys building fun projects,
-            exploring Linux, and learning web development!<br><br>
-
-            This site is my official playground to learn indie web development,
-            showcase my projects, and document my journey.<br><br>
-            - Enjoy! ;)
+          <div class="terminal-text" id="readme-text"> 
+            <!-- Read me text is loaded bys JS-->
           </div>
       </div>
     </section>
@@ -79,7 +67,7 @@
     <div class="article-content">
       <h3 id="post-title"></h3>
       <p id="post-desc"></p>
-      <a id="post-link" href="#">[view post]</a>
+      <a id="post-link" href="#">>view post</a>
     </div>
 
   </div>
@@ -115,5 +103,7 @@
 
   </main>
   <script src="scripts/posts.js" defer></script>
+  <script src="scripts/typewriter.js" defer></script>
+
 </body>
 </html>

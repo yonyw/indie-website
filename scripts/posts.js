@@ -2,25 +2,21 @@ const posts = [
   {
     title: "JavaScript Snake Game",
     desc: "Created a snake game using JavaScript and embedded it into my OS-style site.",
-    image: "assets/images/enter-dunegon.jpeg",
     link: "pages/projects.html"
   },
   {
     title: "Terminal Portfolio v1",
-    desc: "Built a fake operating system UI using HTML and CSS.",
-    image: "assets/images/globe.gif",
+    desc: "Built a fake operating system based on Matrix theme using HTML and CSS.",
     link: "pages/projects.html"
   },
   {
-    title: "Linux Exploration Log",
-    desc: "Experimenting with Linux commands and terminal workflows.",
-    image: "assets/images/rayquza.jpg",
+    title: "Linux Exploration",
+    desc: "Installed Ubuntu as daily driver and started learning linux commands.",
     link: "pages/projects.html"
   },
   {
-    title: "Web Dev Setup",
-    desc: "Setting up my dev environment and learning workflow basics.",
-    image: "assets/images/enter-dunegon.jpeg",
+    title: "Certified Cloud Practitioner (CCP)",
+    desc: "",
     link: "pages/projects.html"
   }
 ];
